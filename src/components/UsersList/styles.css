@@ -1,0 +1,21 @@
+.user--list {
+    list-style-type: none;
+    margin: 15px;
+}
+
+.user--item {
+    margin-bottom: 15px;
+    padding: 0 10px;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 2px #3941d1;
+}
+
+.user--item h2 {
+    color: #3941d1;
+    font-size: 1.4em;
+}
+
+.user--item p {
+    font-size: 1em;
+}

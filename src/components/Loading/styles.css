@@ -1,0 +1,16 @@
+.loading--div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: grid;
+    place-items: center;
+}
+
+.loading--text {
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
