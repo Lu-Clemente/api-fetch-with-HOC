@@ -1,11 +1,12 @@
 import React from "react";
+import withRequest from "../RequestHOC";
 import "./styles.css";
 
-const PostList = ({ posts }) => {
+const PostList = ({ data }) => {
     return (
         <ul className="post--list">
             {
-                posts.map((post) => (
+                data.map((post) => (
                     <li key={post.id} className="post--item">
                         <h2>{post.title}</h2>
                         <p>{post.body}</p>
@@ -16,4 +17,4 @@ const PostList = ({ posts }) => {
     )
 }
 
-export default PostList;
+export default withRequest(PostList, 'posts')
